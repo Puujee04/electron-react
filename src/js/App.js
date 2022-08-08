@@ -12,9 +12,9 @@ export default function App() {
   // console.log(process.env.FIREBASE_KEY, vgLogo);
   return (
     <div className="flex justify-center items-center h-screen">
-      <h1 className="bg-sky-500" style={{ height: 150, width: 150 }}>
-        HelloWorld
-      </h1>
+      <button className="bg-sky-300" onClick={sendNotification}>
+        Click Me
+      </button>
 
       <ReactLogo color={"green"}></ReactLogo>
       <PipeLogo fill={"green"} stroke={"yellow"}></PipeLogo>
