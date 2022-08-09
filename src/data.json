@@ -1,0 +1,18 @@
+{
+    "success": true, 
+    "data": [{"date": "2022-05-17T10:00:58+00:00",
+    "deviceId": "UfOs8_ZM2N2T2P2", 
+    "set": {
+        "p1mv": 25, 
+        "p1us": 14,
+        "nn2s": 0, 
+        "alarmCode0": null
+        },
+    "real": {
+        "mn1": false, 
+        "mn2": false, 
+        "alarmCode4": "", 
+        "alarmCode5": ""
+    }
+}]
+}
