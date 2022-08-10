@@ -5,7 +5,7 @@ import HudagHome from "./HudagHome";
 const HudagContainer = () => {
   const [isHome, setIsHome] = useState(true);
   return (
-    <div className="w-80 h-96 border border-indigo-600">
+    <div className="w-72 h-96 bg-white border-t border-b border-stone-400 m-5 overflow-hidden">
       <div className="flex">
         <SideBar isHome={isHome} setIsHome={setIsHome}></SideBar>
         <div className="flex flex-col items-center flex-1">

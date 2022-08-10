@@ -16,7 +16,7 @@ const UrsgalIcon = ({ active, setMouse }) => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <rect
-        className="ursgal"
+        className="ursgal 452"
         x="183.5"
         y="38.622"
         width="38"
@@ -25,6 +25,7 @@ const UrsgalIcon = ({ active, setMouse }) => {
         fill={active ? "#53AB71" : "#000"}
       />
       <rect
+        className="ursgal 452"
         x="183.551"
         y="0.62204"
         width="38"
